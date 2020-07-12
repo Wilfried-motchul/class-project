@@ -1,0 +1,39 @@
+/* entier document  */
+body{
+    background-color: sandybrown(100, 200, 170, .5);
+    font-family: Georgia, serif;
+    /* font-family: "courier New", 'Courier New', Courier, monospace; */
+    background: url("https://images.unsplash.com/photo-1537781378841-c0d7f8363136?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDk0fQ&w=1000&q=80");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;  
+    
+}
+
+/*  the head of the document  */
+header > h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: Impact, Chcoal, sans-serif;
+    font-size: 2cm;
+}
+
+/* * {
+    box-sizing: border-box;
+} */
+
+.column{
+    float: left;
+    width: 33.3%;
+   
+}
+.row{
+    content:"";
+    width: 100%;
+    clear: both;
+    display: table;
+    font-size: 1cm; 
+}
